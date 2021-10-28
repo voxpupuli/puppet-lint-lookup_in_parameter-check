@@ -1,5 +1,12 @@
 # puppet-lint-lookup\_in\_parameter-check
 
+[![License](https://img.shields.io/github/license/voxpupuli/puppet-lint-lookup_in_parameter-check.svg)](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/blob/master/LICENSE)
+[![Test](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/test.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/test.yml)
+[![Release](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/release.yml)
+[![RubyGem Version](https://img.shields.io/gem/v/puppet-lint-lookup_in_parameter-check.svg)](https://rubygems.org/gems/puppet-lint-lookup_in_parameter-check)
+[![RubyGem Downloads](https://img.shields.io/gem/dt/puppet-lint-lookup_in_parameter-check.svg)](https://rubygems.org/gems/puppet-lint-lookup_in_parameter-check)
+[![codecov](https://codecov.io/gh/voxpupuli/puppet-lint-lookup_in_parameter-check/branch/master/graph/badge.svg)](https://codecov.io/gh/voxpupuli/puppet-lint-lookup_in_parameter-check)
+
 A puppet-lint plugin to check for calls to `lookup` in parameters.
 
 ## Installation
@@ -77,7 +84,7 @@ define acme::module (
 ) {
   include acme
 
-  file { "${acmd::config_dir}/modules/${title}":
+  file { "${acme::config_dir}/modules/${title}":
     ensure  => file,
     content => $config,
   }
@@ -92,7 +99,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/opus-codium/puppet-lint-lookup_in_parameter-check. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/opus-codium/puppet-lint-lookup_in_parameter-check/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -100,4 +107,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the puppet-lint-lookup\_in\_parameter-check project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/opus-codium/puppet-lint-lookup_in_parameter-check/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the puppet-lint-lookup\_in\_parameter-check project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/blob/main/CODE_OF_CONDUCT.md).

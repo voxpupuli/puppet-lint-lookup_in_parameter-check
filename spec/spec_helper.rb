@@ -4,7 +4,7 @@ begin
   require 'simplecov'
   require 'simplecov-console'
   require 'codecov'
-rescue LoadError # rubocop:disable Lint/HandleExceptions
+rescue LoadError
 else
   SimpleCov.start do
     track_files 'lib/**/*.rb'
