@@ -84,7 +84,7 @@ define acme::module (
 ) {
   include acme
 
-  file { "${acmd::config_dir}/modules/${title}":
+  file { "${acme::config_dir}/modules/${title}":
     ensure  => file,
     content => $config,
   }
