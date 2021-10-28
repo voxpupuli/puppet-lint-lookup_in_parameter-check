@@ -1,5 +1,12 @@
 # puppet-lint-lookup\_in\_parameter-check
 
+[![License](https://img.shields.io/github/license/voxpupuli/puppet-lint-lookup_in_parameter-check.svg)](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/blob/master/LICENSE)
+[![Test](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/test.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/test.yml)
+[![Release](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/actions/workflows/release.yml)
+[![RubyGem Version](https://img.shields.io/gem/v/puppet-lint-lookup_in_parameter-check.svg)](https://rubygems.org/gems/puppet-lint-lookup_in_parameter-check)
+[![RubyGem Downloads](https://img.shields.io/gem/dt/puppet-lint-lookup_in_parameter-check.svg)](https://rubygems.org/gems/puppet-lint-lookup_in_parameter-check)
+[![codecov](https://codecov.io/gh/voxpupuli/puppet-lint-lookup_in_parameter-check/branch/master/graph/badge.svg)](https://codecov.io/gh/voxpupuli/puppet-lint-lookup_in_parameter-check)
+
 A puppet-lint plugin to check for calls to `lookup` in parameters.
 
 ## Installation
