@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'puppet-lint-lookup_in_parameter-check'
-  spec.version       = '0.1.0'
+  spec.version       = '1.0.0'
   spec.authors       = ['Romain Tartière']
   spec.email         = ['romain@blogreen.org']
 
