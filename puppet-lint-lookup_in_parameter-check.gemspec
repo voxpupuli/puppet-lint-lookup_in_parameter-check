@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'puppet-lint-lookup_in_parameter-check'
-  spec.version       = '1.0.0'
-  spec.authors       = ['Romain Tartière']
-  spec.email         = ['romain@blogreen.org']
+  spec.version       = '1.1.0'
+  spec.authors       = ['Romain Tartière', 'Vox Pupuli']
+  spec.email         = ['voxpupuli@groups.io']
 
   spec.summary       = 'Check lookup is not used in parameters'
   spec.homepage      = 'https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check'
