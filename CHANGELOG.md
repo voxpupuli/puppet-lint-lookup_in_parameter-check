@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/tree/1.1.0) (2023-02-24)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/compare/1.0.0...1.1.0)
+
+**Merged pull requests:**
+
+- Mark compatible with puppet-lint 3.x [\#3](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/pull/3) ([ekohl](https://github.com/ekohl))
+
 ## [1.0.0](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/tree/1.0.0) (2021-10-28)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check/compare/5a7c1367870df1f8cd84621e74f50cc850c66311...1.0.0)
