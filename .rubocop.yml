@@ -1,6 +1,12 @@
-inherit_gem:
-  voxpupuli-test: rubocop.yml
+---
+inherit_from: .rubocop_todo.yml
 
-Style/FileName:
+# Managed by modulesync - DO NOT EDIT
+# https://voxpupuli.org/docs/updating-files-managed-with-modulesync/
+
+inherit_gem:
+  voxpupuli-rubocop: rubocop.yml
+
+Naming/FileName:
   Exclude:
     - "*.gemspec"
