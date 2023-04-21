@@ -9,7 +9,6 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Check lookup is not used in parameters'
   spec.homepage      = 'https://github.com/voxpupuli/puppet-lint-lookup_in_parameter-check'
   spec.license       = 'MIT'
-  spec.required_ruby_version = '>= 2.4.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = spec.homepage
@@ -23,6 +22,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+
+  spec.required_ruby_version = '>= 2.7.0'
 
   spec.add_dependency 'puppet-lint', '>= 3', '< 5'
   spec.add_development_dependency 'rake'
