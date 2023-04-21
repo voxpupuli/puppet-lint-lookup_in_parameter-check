@@ -17,6 +17,7 @@ PuppetLint.new_check(:lookup_in_parameter) do
       when :FUNCTION_NAME
         next unless active
         next unless token.value == 'lookup'
+
         notify :warning, {
           message: 'lookup used to set the default value of a parameter',
           line: token.line,
